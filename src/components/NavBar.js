@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from "react-router-dom";
 import image from "./newsHead.png"
 const NavBar = (props) => {
@@ -7,12 +7,12 @@ const NavBar = (props) => {
             <img className='my-0 py-0' src={image} style={{width: "20vw", display: "block", marginLeft: "auto",marginRight: "auto"}} alt="" />
             <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode} sticky-top`}>
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">NewsMonkey</Link>
+                    <Link className="navbar-brand fw-bold" to="/">NewsMonkey</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0 fs-5">
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/">Home</Link>
                             </li>
