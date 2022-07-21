@@ -7,7 +7,7 @@ const NavBar = (props) => {
             <img className='my-0 py-0' src={image} style={{width: "20vw", display: "block", marginLeft: "auto",marginRight: "auto"}} alt="" />
             <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode} sticky-top`}>
                 <div className="container-fluid">
-                    <Link className="navbar-brand fw-bold" to="/">NewsMonkey</Link>
+                    <Link className="navbar-brand fw-bold" to="/">News-Basket</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
